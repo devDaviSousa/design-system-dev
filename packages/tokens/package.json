@@ -1,0 +1,16 @@
+{
+  "name": "@devBoo-ui/tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@devBoo-ui/ts-config": "*",
+    "tsup": "^6.6.0",
+    "typescript": "^4.9.5"
+  }
+}
